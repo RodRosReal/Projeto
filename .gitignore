@@ -3,3 +3,12 @@
 ################################################################################
 
 /src/Application.Services/bin
+/src/Application.Services/obj/Debug
+/src/.vs
+/src/Domain/.vs/Domain/v15
+/src/Domain/bin/Debug
+/src/Domain/obj/Debug
+/src/Infrastructure/.vs/Infrastructure/v15/Server/sqlite3
+/src/Infrastructure/bin/Debug
+/src/Infrastructure/obj/Debug
+/src/packages

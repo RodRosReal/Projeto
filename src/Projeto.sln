@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{137E929F-F16A-4F1C-8BE3-FA7E0AB5D609}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{32D8B95A-FBA5-43DF-82E0-3FC1A34FE8AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dal", "Dal", "{3CE7A92A-4C2B-497A-AEA5-1B9CE0B87ABB}"
+	ProjectSection(SolutionItems) = preProject
+		Templates\Dal\BaseExample.Context.tt = Templates\Dal\BaseExample.Context.tt
+		Templates\Dal\BaseExample.Contract.tt = Templates\Dal\BaseExample.Contract.tt
+		Templates\Dal\BaseExample.Entities.tt = Templates\Dal\BaseExample.Entities.tt
+		Templates\Dal\BaseExample.Entities.WCF.tt = Templates\Dal\BaseExample.Entities.WCF.tt
+		Templates\Dal\BaseExample.MessageTypes.tt = Templates\Dal\BaseExample.MessageTypes.tt
+		Templates\Dal\BaseExample.oData.tt = Templates\Dal\BaseExample.oData.tt
+		Templates\Dal\BaseExample.Validator.tt = Templates\Dal\BaseExample.Validator.tt
+		Templates\Dal\Util.ttinclude = Templates\Dal\Util.ttinclude
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{8BD3E0DC-9FAE-4643-9BFC-38080C06AF32}"
+	ProjectSection(SolutionItems) = preProject
+		Templates\Service\MessageTemplate.tt = Templates\Service\MessageTemplate.tt
+		Templates\Service\ServiceBaseTemplate.tt = Templates\Service\ServiceBaseTemplate.tt
+		Templates\Service\ServiceContractGenerator.tt = Templates\Service\ServiceContractGenerator.tt
+		Templates\Service\ServiceImplementationTemplate.tt = Templates\Service\ServiceImplementationTemplate.tt
+		Templates\Service\ServiceInterfaceTemplate.tt = Templates\Service\ServiceInterfaceTemplate.tt
+		Templates\Service\WcfServiceCodeGen.tt = Templates\Service\WcfServiceCodeGen.tt
+		Templates\Service\WebConfigGenerator.tt = Templates\Service\WebConfigGenerator.tt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{3A2A9A27-5731-477E-AB74-51FFEC29FB63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Services", "Application.Services\Application.Services.csproj", "{372CAB8A-5859-420A-9FE7-F32D71C23B51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{137E929F-F16A-4F1C-8BE3-FA7E0AB5D609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137E929F-F16A-4F1C-8BE3-FA7E0AB5D609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137E929F-F16A-4F1C-8BE3-FA7E0AB5D609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137E929F-F16A-4F1C-8BE3-FA7E0AB5D609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A2A9A27-5731-477E-AB74-51FFEC29FB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2A9A27-5731-477E-AB74-51FFEC29FB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2A9A27-5731-477E-AB74-51FFEC29FB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2A9A27-5731-477E-AB74-51FFEC29FB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{372CAB8A-5859-420A-9FE7-F32D71C23B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372CAB8A-5859-420A-9FE7-F32D71C23B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372CAB8A-5859-420A-9FE7-F32D71C23B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372CAB8A-5859-420A-9FE7-F32D71C23B51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CE7A92A-4C2B-497A-AEA5-1B9CE0B87ABB} = {32D8B95A-FBA5-43DF-82E0-3FC1A34FE8AB}
+		{8BD3E0DC-9FAE-4643-9BFC-38080C06AF32} = {32D8B95A-FBA5-43DF-82E0-3FC1A34FE8AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F94FC4C1-E470-4B08-97D2-2E12BDEA1C12}
+	EndGlobalSection
+EndGlobal
