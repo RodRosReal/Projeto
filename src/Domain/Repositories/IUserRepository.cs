@@ -4,7 +4,7 @@ using P2A.Leads.Domain.Specifications;
 
 namespace Domain.Repositories
 {
-    public interface IUsuarioRepository : IRepository<User>
+    public interface IUserRepository : IRepository<User>
     {
         User GetUserByLogin(UsuarioByEmailSpec spec);
     }

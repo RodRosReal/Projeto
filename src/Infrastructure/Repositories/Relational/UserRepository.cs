@@ -5,7 +5,7 @@ using System;
 
 namespace Infrastructure.Repositories.Relational
 {
-    public class UserRepository : RelationalRepository<User>, IUsuarioRepository
+    public class UserRepository : RelationalRepository<User>, IUserRepository
     {
         public UserRepository()
         {

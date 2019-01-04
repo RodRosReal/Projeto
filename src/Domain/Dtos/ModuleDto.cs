@@ -1,5 +1,4 @@
 ﻿using Domain.Core;
-using System;
 using System.Collections.Generic;
 
 namespace Domain.Dtos
