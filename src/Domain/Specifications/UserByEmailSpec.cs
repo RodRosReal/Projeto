@@ -5,17 +5,17 @@ using System.Linq.Expressions;
 
 namespace P2A.Leads.Domain.Specifications
 {
-    public class UsuarioByEmailSpec : BaseSpecification<User>
+    public class UserByEmailSpec : BaseSpecification<User>
     {
-        private string Login { get; set; }
+        private string Email { get; set; }
 
-        public UsuarioByEmailSpec(string login)
+        public UserByEmailSpec(string email)
         {
-            this.Login = login;
+            this.Email = email;
         }
 
         public override string Description => $"";
 
-        protected override Expression<Func<User, bool>> GetFinalExpression() => x => x.Email == this.Login && x.Active == true;
+        protected override Expression<Func<User, bool>> GetFinalExpression() => x => x.Email == this.Email;
     }
 }

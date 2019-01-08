@@ -68,6 +68,12 @@
 .\base\AdminUser\AdminUserBase.generated.cs
 .\base\AdminUser\AdminUserRequest.generated.cs
 .\base\AdminUser\AdminUserResponse.generated.cs
+.\base\AdminUser\FindUsersPagedRequest.generated.cs
+.\base\AdminUser\FindUsersPagedResponse.generated.cs
+.\base\AdminUser\FindUsersRequest.generated.cs
+.\base\AdminUser\FindUsersResponse.generated.cs
+.\base\AdminUser\GetUserByEmailRequest.generated.cs
+.\base\AdminUser\GetUserByEmailResponse.generated.cs
 .\base\AdminUser\GetUserByIdRequest.generated.cs
 .\base\AdminUser\GetUserByIdResponse.generated.cs
 .\Interfaces\AdminUser\IAdminUser.generated.cs
@@ -79,11 +85,23 @@
     <Compile Include="base\AdminUser\AdminUserBase.generated.cs" />
     <Compile Include="base\AdminUser\AdminUserRequest.generated.cs" />
     <Compile Include="base\AdminUser\AdminUserResponse.generated.cs" />
+    <Compile Include="base\AdminUser\FindUsersPagedRequest.generated.cs" />
+    <Compile Include="base\AdminUser\FindUsersPagedResponse.generated.cs" />
+    <Compile Include="base\AdminUser\FindUsersRequest.generated.cs" />
+    <Compile Include="base\AdminUser\FindUsersResponse.generated.cs" />
+    <Compile Include="base\AdminUser\GetUserByEmailRequest.generated.cs" />
+    <Compile Include="base\AdminUser\GetUserByEmailResponse.generated.cs" />
     <Compile Include="base\AdminUser\GetUserByIdRequest.generated.cs" />
     <Compile Include="base\AdminUser\GetUserByIdResponse.generated.cs" />
     <Compile Include="Interfaces\AdminUser\IAdminUser.generated.cs" />
     <Compile Include="Messages\AdminUser\AdminUserRequest.cs" />
     <Compile Include="Messages\AdminUser\AdminUserResponse.cs" />
+    <Compile Include="Messages\AdminUser\FindUsersPaged\FindUsersPagedRequest.cs" />
+    <Compile Include="Messages\AdminUser\FindUsersPaged\FindUsersPagedResponse.cs" />
+    <Compile Include="Messages\AdminUser\FindUsers\FindUsersRequest.cs" />
+    <Compile Include="Messages\AdminUser\FindUsers\FindUsersResponse.cs" />
+    <Compile Include="Messages\AdminUser\GetUserByEmail\GetUserByEmailRequest.cs" />
+    <Compile Include="Messages\AdminUser\GetUserByEmail\GetUserByEmailResponse.cs" />
     <Compile Include="Messages\AdminUser\GetUserById\GetUserByIdRequest.cs" />
     <Compile Include="Messages\AdminUser\GetUserById\GetUserByIdResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

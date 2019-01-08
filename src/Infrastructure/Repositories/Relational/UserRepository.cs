@@ -10,13 +10,5 @@ namespace Infrastructure.Repositories.Relational
         public UserRepository()
         {
         }
-
-        public User GetUserByLogin(UsuarioByEmailSpec spec)
-        {
-            if (spec == null)
-                throw new ArgumentNullException(nameof(spec));
-
-            return this.Get(spec);
-        }
     }
 }

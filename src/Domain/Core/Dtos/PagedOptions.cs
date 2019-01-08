@@ -51,8 +51,6 @@ namespace Domain.Core
 
         public string OrderBy { get; set; }
 
-        public string Filter { get; set; }
-
         public SortDirection Direction { get; set; }
 
         public bool IncludeTotalCount { get; set; }

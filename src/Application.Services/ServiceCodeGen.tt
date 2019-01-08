@@ -15,7 +15,7 @@
 
 	dic.Add("AdminUser", new List<string>()
 	{    
-		"GetUserById"
+		"GetUserById", "GetUserByEmail", "FindUsers","FindUsersPaged"
 	});
 	
 	// Criando estrutura dos serviços
